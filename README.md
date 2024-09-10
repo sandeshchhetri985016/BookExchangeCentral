@@ -49,7 +49,7 @@ about-help.html
 ### Clone the repository:
 
 git clone https://github.com/sandeshchhetri985016/BookExchangeCentral.git
-Set up a local server (PHP my admin), and move the project to the www folder.
+Set up a local server (wampserver), and move the project to the www folder.
 
 Create a MySQL database named book_exchange and import the create_tables.sql file using phpMyAdmin.
 
@@ -57,5 +57,5 @@ Start your local server and visit http://localhost/BookExchangeCentral/.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is open source software.
 
