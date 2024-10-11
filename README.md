@@ -51,7 +51,7 @@ about-help.html
 git clone https://github.com/sandeshchhetri985016/BookExchangeCentral.git
 Set up a local server (wampserver), and move the project to the www folder.
 
-Create a MySQL database named book_exchange and import the create_tables.sql file using phpMyAdmin.
+Create a MySQL database named book_exchange and import the book_data.sql file using phpMyAdmin.
 
 Start your local server and visit http://localhost/BookExchangeCentral/.
 
