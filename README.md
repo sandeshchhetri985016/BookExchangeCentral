@@ -16,40 +16,7 @@ MySQL for database
 JS for dynamic content loading  
 
 ## File Structure
-
-/bookexchangecentral
-index.php
-auth.php
-dashboard.php
-listings.php
-search.php
-messaging.phpadmin.php
-about.php
-cart.php
-/assets
-  /css
-   style.css
-
-  /js
-   script.js
-   search.js
-   messaging.js
-
-  /bookimg
-
-  /includes
-   db_connect.php
-   footer.php
-   functions.php
-   header.php
-
-  /data
-   book_data.sql
-   bookexchangecentral.sql
-
-  /.vscode
-   settings.json
-
+![fileStructure](fileStructure.png)
 
 ## Installation
 
