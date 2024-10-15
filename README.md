@@ -18,35 +18,38 @@ JS for dynamic content loading
 ## File Structure
 
 /bookexchangecentral
-├── index.php                       # Home page with book listings and introductory content
-├── auth.php                        # User authentication (login and signup functionalities)
-├── dashboard.php                   # User dashboard (profile, listings, messages, transaction history)
-├── listings.php                    # Page for managing book listings (create, edit, view)
-├── search.php                      # Search results page for book listings
-├── messaging.php                   # Messaging center for communication between users
-├── admin.php                       # Admin dashboard for managing users, listings, and transactions
-├── about.php                       # About/help page for platform information and user assistance
-├── cart.php                        # Cart page for managing book selections
-├── /assets
-| ├── css
-| │   └── style.css                   # Main stylesheet for the website
-| ├── js
-| │   ├── script.js                   # JavaScript for interactive elements and form validation
-| │   ├── search.js                   # JavaScript for search-related functionalities
-| │   └── messaging.js                # JavaScript for messaging features
-| └── /bookimg                        # contains images for books and logo
-├── /includes
-| ├── db_connect.php                  # Database connection setup file
-| ├── footer.php                      # Footer included on all pages for consistent styling
-| ├── functions.php                   # Utility functions used across the website
-| └── header.php                      # Header included on all pages for consistent navigation
-|
-├──/data
-| ├── book_data.sql                   # SQL file containing sample book data for database initialization
-| └── bookexchangecentral.sql         # Main SQL file with the database schema for tables
-|
-└──/.vscode
-  └── settings.json                   # VS Code configuration file for project-specific settings
+index.php
+auth.php
+dashboard.php
+listings.php
+search.php
+messaging.php
+admin.php
+about.php
+cart.php
+/assets
+  /css
+   style.css
+
+  /js
+   script.js
+   search.js
+   messaging.js
+
+  /bookimg
+
+  /includes
+   db_connect.php
+   footer.php
+   functions.php
+   header.php
+
+  /data
+   book_data.sql
+   bookexchangecentral.sql
+
+  /.vscode
+   settings.json
 
 
 ## Installation
