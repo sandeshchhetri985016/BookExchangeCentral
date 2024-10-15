@@ -23,8 +23,7 @@ auth.php
 dashboard.php
 listings.php
 search.php
-messaging.php
-admin.php
+messaging.phpadmin.php
 about.php
 cart.php
 /assets
