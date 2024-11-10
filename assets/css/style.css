@@ -1,1 +1,441 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and nav */
+
+}
+
+.logo img {
+    height: 79px; /* Adjust logo size as needed */
+}
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8%;
+}
+
+/* Center the h2 elements */
+h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Adds space below the heading */
+    color: #35424a;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Distributes space between elements */
+    align-items: center; /* Vertically center the items */
+    width: 100%
+}
+
+.nav-links {
+    list-style-type: none;
+    justify-content: center; /* Center the navigation links */
+    flex-grow: 1; /* Allow nav-links to grow and take available space */
+    margin: 0;
+    padding: 0;
+}
+
+.cart-icon {
+    font-size: 1.5rem; /* Size of the cart icon */
+}
+
+.cart-table th, .cart-table td {
+    padding: 10px;
+}
+
+.cart-table th {
+    text-align: left;
+}
+
+.cart-table td {
+    vertical-align: middle;
+}
+
+.cart-table td form {
+    margin: 0;
+    padding: 0;
+}
+
+.remove-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #c0392b;
+}
+
+/* Styling for the Edit link to match Delete button */
+a.edit-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.edit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Ensure proper spacing between Change Password and Save Changes buttons */
+button#togglePasswordField {
+    margin-bottom: 15px; /* Adds space between Change Password and Save Changes buttons */
+}
+
+
+.cart-table th[style="width: 80px;"], .cart-table td[style="text-align: center;"] {
+    text-align: center;
+    width: 80px;
+}
+
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; /* Rounded corners on the left */
+    width: 200px; /* Set the width for the search bar */
+}
+
+.search-button {
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right */
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.search-button i {
+    color: #fff; /* Set icon color */
+}
+
+.search-button:hover {
+    background-color: #4cae4c; /* Darker shade on hover */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4cae4c;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #35424a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #35424a;
+    color: white;
+}
+
+img {
+    max-width: 100px; /* Ensure images don't overflow */
+    height: auto;
+}
+
+/* Form Styling */
+form {
+    margin: 20px auto;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"], 
+form input[type="email"], 
+form input[type="password"], 
+form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #35424a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Reply Form */
+
+form textarea {
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Listings Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+h3 {
+    display: inline;
+    color: #35424a;
+
+}
+
+/*listings section*/
+.listings-container {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between items */
+    margin: 20px 0; /* Space above and below the grid */
+    padding: 20px; /* Add some padding around the container */
+    /* padding-bottom: 5%; */
+}
+
+/* Listing Details */
+.listing-details {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style each listing item */
+.listing-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the contents of each listing item */
+    text-align: center; /* Center text within each listing item */
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.listing-item a {
+    text-decoration: none; 
+    color:#333;
+}
+.listing-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.image-wrapper {
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.listing-image {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+}
+
+.text-wrapper {
+    text-align: center; /* Align text to the left */
+}
+
+/* Messages Container */
+.messages-container {
+    margin: 20px;
+}
+
+.message-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.message-item p {
+    margin: 0 0 5px;
+}
+
+.message-form {
+    margin-top: 10px; /* Add space above the form */
+}
+
+.message-form textarea {
+    width: 100%; /* Make it full width */
+    height: 50px; /* Set a smaller height */
+}
+
+.message-form button {
+    padding: 5px 10px; /* Reduce padding for a smaller button */
+    font-size: 14px; /* Adjust font size if needed */
+    margin-top: 5px; /* Space above the button */
+}
+
+/* Hamburger Menu Styles */
+.menu-toggle {
+    display: none; /* Hide the menu toggle by default */
+    cursor: pointer; /* Pointer cursor for the hamburger icon */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide nav links by default */
+        flex-direction: column; /* Stack links vertically */
+        position: absolute; /* Positioning for the dropdown */
+        top: 60px; /* Adjust based on header height */
+        left: 0;
+        right: 0;
+        background-color: #333; /* Background for dropdown */
+        border: 1px solid #ddd; /* Optional border */
+        z-index: 1; /* Ensure it appears above other elements */
+    }
+
+    .nav-links.active {
+        display: flex; /* Show nav links when active */
+    }
+
+    .menu-toggle {
+        display: block; /* Show hamburger icon on small screens */
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Space between stacked links */
+        text-align: center; /* Center align links */
+    }
+/* Add hover effect for mobile navigation */
+    .nav-links li a {
+        color: #fff; /* Link color */
+        text-decoration: none;
+        padding: 10px; /* Space around links */
+        display: block; /* Make links block-level for easier clicking */
+        transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    }
+
+    .nav-links li a:hover {
+        background-color: #444; /* Darker background on hover */
+        color: #fff; /* Ensure text remains white on hover */
+    }
+    /* Add hover effect for mobile navigation */
+    .nav-links li a {
+        color: #fff; /* Link color */
+        text-decoration: none;
+        padding: 10px; /* Space around links */
+        display: block; /* Make links block-level for easier clicking */
+        transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    }
+
+    .nav-links li a:hover {
+        background-color: #444; /* Darker background on hover */
+        color: #fff; /* Ensure text remains white on hover */
+    }
+}
